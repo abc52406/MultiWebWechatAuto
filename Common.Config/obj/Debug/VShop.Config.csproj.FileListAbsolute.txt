@@ -1,0 +1,4 @@
+E:\Project\MobileWebB2C\Code\Trunk\VShop.Config\bin\Debug\VShop.Config.dll
+E:\Project\MobileWebB2C\Code\Trunk\VShop.Config\bin\Debug\VShop.Config.pdb
+E:\Project\MobileWebB2C\Code\Trunk\VShop.Config\obj\Debug\VShop.Config.dll
+E:\Project\MobileWebB2C\Code\Trunk\VShop.Config\obj\Debug\VShop.Config.pdb

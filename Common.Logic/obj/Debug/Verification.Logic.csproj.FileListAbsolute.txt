@@ -1,0 +1,14 @@
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\Verification.Logic.dll.config
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\Verification.Logic.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\Verification.Logic.pdb
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\EntityFramework.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\Formula.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\Newtonsoft.Json.Net20.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\Verification.Config.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\log4net.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\Formula.pdb
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\Verification.Config.pdb
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\bin\Debug\log4net.xml
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\obj\Debug\Verification.Logic.csprojResolveAssemblyReference.cache
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\obj\Debug\Verification.Logic.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Logic\obj\Debug\Verification.Logic.pdb

@@ -1,0 +1,10 @@
+D:\Project\MGCC\mgcc2016官网\Code\Common.Config\bin\Release\Common.Config.dll
+D:\Project\MGCC\mgcc2016官网\Code\Common.Config\bin\Release\Common.Config.pdb
+D:\Project\MGCC\mgcc2016官网\Code\Common.Config\obj\Release\Common.Config.dll
+D:\Project\MGCC\mgcc2016官网\Code\Common.Config\obj\Release\Common.Config.pdb
+D:\Project\MGCC\mgcc2016官网\Code\Common.Config\obj\Release\Common.Config.csprojResolveAssemblyReference.cache
+E:\Project\观昊\网页微信工具\第二版\WebWechat\Common.Config\bin\Release\Common.Config.dll
+E:\Project\观昊\网页微信工具\第二版\WebWechat\Common.Config\bin\Release\Common.Config.pdb
+E:\Project\观昊\网页微信工具\第二版\WebWechat\Common.Config\obj\Release\Common.Config.csprojResolveAssemblyReference.cache
+E:\Project\观昊\网页微信工具\第二版\WebWechat\Common.Config\obj\Release\Common.Config.dll
+E:\Project\观昊\网页微信工具\第二版\WebWechat\Common.Config\obj\Release\Common.Config.pdb

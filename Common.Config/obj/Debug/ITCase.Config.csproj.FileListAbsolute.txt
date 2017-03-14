@@ -1,0 +1,5 @@
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Config\bin\Debug\ITCase.Config.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Config\bin\Debug\ITCase.Config.pdb
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Config\obj\Debug\ITCase.Config.csprojResolveAssemblyReference.cache
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Config\obj\Debug\ITCase.Config.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Config\obj\Debug\ITCase.Config.pdb

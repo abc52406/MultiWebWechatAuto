@@ -1,0 +1,5 @@
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Config\bin\Debug\Verification.Config.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Config\bin\Debug\Verification.Config.pdb
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Config\obj\Debug\Verification.Config.csprojResolveAssemblyReference.cache
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Config\obj\Debug\Verification.Config.dll
+D:\Project\马利宝\核销系统\MalibuVerification\Verification.Config\obj\Debug\Verification.Config.pdb

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Base>
+  <InitConfig>
+    <CheckReplyTime>500</CheckReplyTime>
+    <CheckLoginTime>3000</CheckLoginTime>
+    <CheckFriendsTime>3000</CheckFriendsTime>
+    <CheckFriendsSingleTime>65</CheckFriendsSingleTime>
+    <CheckFriendsCount>39</CheckFriendsCount>
+    <CheckFriendsMax>10000</CheckFriendsMax>
+    <UpdateStatusTime>3000</UpdateStatusTime>
+    <InterfaceMaxError>10</InterfaceMaxError>
+    <WartMessage>您前方还有{0}人排队使用该功能，请稍等一会儿再点击</WartMessage>
+    <LoginMessage>请保存图片到手机，使用"扫一扫-打开相册"功能扫描该图片，并授权登录网页版微信。
+由于网页版微信功能有限制，一天请最多使用一次</LoginMessage>
+    <LoginOutTimeMessage>您的登录二维码已超时，请重新申请</LoginOutTimeMessage>
+    <CheckStartMessage>您有{0}个好友，由于网页版微信拉群限制，预计{1}分钟检查完毕</CheckStartMessage>
+    <LoginErrorTimeMessage>您的登录状态异常，可能在其它地方登录的网页版微信，请重新申请</LoginErrorTimeMessage>
+    <CheckGoodMessage>检查完毕，您的联系人全部都保持好友状态，好腻害。
+      网页版微信已退出登录，检测过程中使用到的讨论组需要您手动删除
+    </CheckGoodMessage>
+    <CheckBadMessage>检查完毕，您的好友中，{0}删除您，{1}拉黑您。
+网页版微信已退出登录，检测过程中使用到的讨论组需要您手动删除</CheckBadMessage>
+    <WebMaxErrorMsg>微信网页版接口多次调用失败，可能是您检测好友频率太频繁，被微信阻止，或者您在别处登录了网页版微信。</WebMaxErrorMsg>
+  </InitConfig>
+</Base>

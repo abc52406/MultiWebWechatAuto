@@ -1,0 +1,537 @@
+﻿/*重写控件颜色样式*/
+.am-nav > li > a:hover {
+    background-color:rgba(255,156,0,1);
+}
+.am-nav > li > a,.am-nav-header {
+    padding: .1em .1em;
+}
+.am-nav > li.am-active > a {
+    background-color:rgba(255,156,0,1);
+}
+@media only screen and (max-width: 640px) {
+.am-selected {
+    width:100%;
+}
+}
+@media only screen and (min-width: 641px) {
+.am-selected {
+    width:200px;
+}
+}
+@media only screen and (max-width: 640px){
+.am-topbar-nav>li {
+float: left;
+}
+}
+.am-pagination > li > a {
+padding: 0em .5em;
+margin:0;
+font-size: 4.5rem;
+color:white;
+background-color:black;
+}
+.am-pagination>li>a:focus, .am-pagination>li>a:hover, .am-pagination>li>span:focus, .am-pagination>li>span:hover {
+background-color: black;
+}
+.am-pagination > .am-disabled > a, .am-pagination > .am-disabled > a:focus, .am-pagination > .am-disabled > a:hover, .am-pagination > .am-disabled > span, .am-pagination > .am-disabled > span:focus, .am-pagination > .am-disabled > span:hover {
+color:white;
+background-color:rgba(122,122,122,1);
+}
+/*基础样式*/
+.abs {
+    position:absolute;
+}
+.fullwidth{
+width:100%;
+}
+
+/*业务样式*/
+
+/*查询区域*/
+.am-btn-searchlolor {
+color: #f37b1d;
+background-color: #fff;
+}
+@media only screen and (max-width: 640px) {
+.search-select-group {
+    width:100%;
+}
+}
+/*左侧菜单*/
+#leftmenuclose {
+position:fixed;
+z-index:99;
+}
+.leftmenuclose-line {
+width: 0.3rem;
+height: 100%;
+background-color: rgba(255,156,0,1);
+}
+.leftmenuclose-btn {
+width: 3rem;
+top: 50%;
+left:0%;
+position: absolute;
+margin-top: -3.2rem;
+}
+#leftmenuopen {
+    background: rgba(0,0,0,0);
+}
+.leftmenuopen-bar {
+    background: rgba(238,238,238,1);
+    width: 15%;
+}
+@media only screen and (max-width: 640px) {
+.leftmenuopen-bar {
+    width:18rem;
+}
+}
+.leftmenuopen-list {
+}
+.leftmenuopen-item {
+    padding:0rem;
+}
+.leftmenuopen-item:link,.leftmenuopen-item:visited {
+    color:rgba(122,122,122,1);
+}
+.leftmenuopen-item:hover,.leftmenuopen-item:active {
+    background-color:rgba(255,156,0,1);
+    color:white;
+}
+.leftmenuopen-selecteditem {
+background-color: rgba(255,156,0,1);
+}
+.leftmenuopen-companyinfo {
+padding-top: 5rem;
+}
+.leftmenuopen-companyinfo > p {
+margin: 0;
+font-size:1.2rem;
+text-align:center;
+color:rgba(255,156,0,1);
+}
+.leftmenuopen-companyinfo > p > span {
+font-size:1.6rem;
+padding: 0 .5rem;
+}
+/*顶部菜单*/
+.menu-sm-btn,.menu-sm-btn:hover,.menu-sm-btn:active {
+    background-color:rgba(255,156,0,1);
+    border-color:rgba(255,156,0,1);
+}
+.menu-sm-header {
+    background-color:rgba(255,156,0,1);
+    border-color:rgba(255,156,0,1);
+    margin:0;
+}
+/*右侧区域*/
+#rightcontent {
+}
+.rightcontent-main {
+padding:0;
+}
+@media only screen and (max-width: 640px) {
+    .rightcontent-main {
+        padding:0 .5rem;
+    }
+}
+/*页脚*/
+.footer-linktext,.footer-copyright {
+    font-size:1.2rem;
+}
+.footer-link {
+    font-size:1.2rem;
+}
+.footer-linktext {
+    color:rgba(255,156,0,1);
+    font-weight:bolder;
+}
+/*特效*/
+.showanimatediv {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+.showanimatediv img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 1;
+}
+.showanimatediv img.abs {
+	position: absolute;
+    top:0%;
+}
+.showanimatediv .hideanimatediv {
+	padding: 2em;
+	color: #fff;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.showanimatediv .hideanimatediv::before,
+.showanimatediv .hideanimatediv::after {
+	pointer-events: none;
+}
+
+.showanimatediv .hideanimatediv,
+.showanimatediv .hideanimatediv > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.showanimatediv .hideanimatediv > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.showanimatediv h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.showanimatediv h2 span {
+	font-weight: 800;
+}
+
+.showanimatediv h2,
+.showanimatediv p {
+	margin: 0;
+}
+
+.showanimatediv p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+.showanimatediv .hideanimatediv {
+	top: auto;
+	bottom: 0;
+	padding: 0;
+    height: 4rem;
+	background: #fff;
+	color: #3c4a50;
+    opacity:.8;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+.showanimatediv .yellowhideanimatediv {
+    height: 3rem;
+    color:black;
+	background:rgba(255,156,0,1);
+}
+.showanimatediv .smallhideanimatediv {
+    height: 2rem;
+}
+
+.showanimatediv h2 {
+	float: left;
+}
+
+.showanimatediv p.icon-links a {
+	float: right;
+	color: #3c4a50;
+	font-size: 2rem;
+}
+.yellowhideanimatediv p.icon-links a {
+	font-size: 1.7rem;
+}
+.smallhideanimatediv p.icon-links a {
+	font-size: 1.7rem;
+}
+
+.showanimatediv:hover p.icon-links a:hover,
+.showanimatediv:hover p.icon-links a:focus {
+	color: #252d31;
+}
+
+.showanimatediv p.description {
+    position: absolute;
+    bottom: 3rem;
+    padding: 1rem;
+    color: #fff;
+    text-transform: none;
+    font-size: 1rem;
+    line-height: 1;
+    opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+
+.showanimatediv h2,
+.showanimatediv p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+.showanimatediv p.icon-links a span::before {
+	display: inline-block;
+	padding: 8px 10px;
+	font-family: 'feathericons';
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye::before {
+	content: '\e000';
+}
+
+.icon-paper-clip::before {
+	content: '\e001';
+}
+
+.icon-heart::before {
+	content: '\e024';
+}
+
+.showanimatediv h2 {
+	display: inline-block;
+    font-size: 2.2rem;
+    padding: .5rem 0 .5rem 1.5rem;
+}
+.yellowhideanimatediv h2 {
+    font-size: 1.4rem;
+    padding: .5rem 0 0 .4rem;
+}
+.smallhideanimatediv h2 {
+    font-size: 1.4rem;
+    padding: .2rem 0 0 .4rem;
+}
+
+.showanimatediv:hover p.description {
+	opacity: 1;
+}
+
+.showanimatediv:hover .hideanimatediv,
+.showanimatediv:hover h2,
+.showanimatediv:hover p.icon-links a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.showanimatediv p.icon-links a {
+    padding: .6rem 1rem 0 0;
+}
+.yellowhideanimatediv p.icon-links a {
+    padding: .5rem .3rem 0 0;
+}
+.smallhideanimatediv p.icon-links a {
+    padding: 0 .6rem 0 0;
+}
+.showanimatediv img.hideitem,.showanimatediv img.showitem {
+    -webkit-transition: opacity 0.9s, -webkit-transform 0.9s;
+	transition: opacity 0.9s, transform 0.9s;
+}
+.showanimatediv:hover img.showitem,.showanimatediv img.hideitem {
+    opacity:0;
+}
+.showanimatediv:hover img.hideitem,.showanimatediv img.showitem {
+    opacity:1;
+}
+
+.showanimatediv:hover h2 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.showanimatediv:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.showanimatediv:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.showanimatediv:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+/*业务单元*/
+.aboutus-tabenglish {
+font-size: 1.5rem;
+font-weight: 700;
+}
+.aboutus-tabchinese {
+font-size: 1.5rem;
+color: gray;
+}
+.aboutus-tabnumber {
+color: gray;
+font-size: 3rem;
+font-weight: 600;
+}
+.aboutus-tabnumberselect {
+color: rgba(255,156,0,1);
+font-size: 3rem;
+font-weight: 600;
+}
+.aboutus-tabico {
+width: 1.7rem;
+padding: 0 0 .6rem .4rem;
+}
+.aboutustab {
+cursor:pointer;
+}
+/*业务单元*/
+.businessunit-paddingunit {
+padding: .2rem;
+}
+.businessunit-li {
+padding: .2rem;
+}
+.businessunit-emptyitem {
+height: 12.5rem;
+}
+.businessunit-item {
+height: 12.5rem;
+background-color: #e6e6e6;
+border-color: #e6e6e6;
+}
+.businessunit-itemimgdiv {
+height: 12.5rem;
+width: 12.5rem;
+float: left;
+overflow: hidden;
+text-align:center;
+}
+.businessunit-itemimg {
+height: 12.5rem;
+width: 12.5rem;
+display:inline;
+}
+.businessunit-itemtext {
+padding: .5rem 2rem 0 14.5rem;
+min-height:11rem;
+}
+.businessunit-itemtitle {
+font-size: 1.7rem;
+color: rgba(255,156,0,1);
+font-weight: bold;
+}
+.businessunit-itemline {
+border-color:rgba(122,122,122,1);
+}
+.businessunit-itemdesc {
+font-size: 1.2rem;
+color:rgba(122,122,122,1);
+height: 6rem;
+overflow : hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+}
+.businessunit-itemlink {
+font-size: 1.2rem;
+float: right;
+cursor:pointer;
+padding-top: .5rem;
+color: rgba(255,156,0,1);
+}
+.businessunit-itemlink:link,.businessunit-itemlink:visited,.businessunit-itemlink:hover,.businessunit-itemlink:active {
+color: rgba(255,156,0,1);
+}
+.businessunit-pagination {
+padding-top: 4.3rem;
+}
+@media only screen and (max-width: 640px) {
+    .businessunit-emptyitem {
+        height: 6rem;
+    }
+    .businessunit-pagination {
+        padding-top: 0;
+    }
+    .businessunit-itemimgdiv {
+        width: 8.5rem;
+    }
+    .businessunit-itemimg {
+        margin-left:-2rem;
+    }
+    .businessunit-itemtext {
+        padding-left: 10.5rem;
+    }
+}
+/*联系我们*/
+.contactus-csdiv {
+background-color: rgba(255,156,0,1);
+min-height:20rem;
+}
+.contactus-whitetitle {
+color:white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+}
+.contactus-whiteline {
+color:white;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0 0 0 1.4rem;
+}
+.contactus-csico {
+    font-size: 1.8rem;
+    padding: 2.5rem 1rem 0 .2rem;
+}
+.contactus-ywdiv {
+background-color: rgba(238,238,238,1);
+min-height:20rem;
+}
+.contactus-judiv {
+background-color: rgba(158,158,158,1);
+min-height:16rem;
+}
+.contactus-orangetitle {
+color: rgba(255,156,0,1);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 6rem 0 2rem 1rem;
+}
+.contactus-grayline {
+    color: rgba(158,158,158,1);
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0 0 0 1.4rem;
+    height: 1.8rem;
+    vertical-align: middle;
+}
+.contactus-ywico {
+    color: rgba(255,156,0,1);
+    font-size: 1.6rem;
+    padding: 0;
+    height: .5rem;
+    width: 1.6rem;
+    text-align: center;
+}
+.contactus-ywnoico {
+    padding: 0 0 0 1.6rem;
+}
+.contactus-dtdiv {
+min-height:20rem;
+}
+    .contactus-dtdiv *,.contactus-dtdiv *:after,.contactus-dtdiv *:before {
+        box-sizing:content-box;
+        webkit-box-sizing:content-box;
+    }
+.contactus-jsdiv {
+min-height:20rem;
+background-color:rgba(158,158,158,1);
+}

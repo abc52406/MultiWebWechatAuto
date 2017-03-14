@@ -1,0 +1,14 @@
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\ITCase.Logic.dll.config
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\ITCase.Logic.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\ITCase.Logic.pdb
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\EntityFramework.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\Formula.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\Newtonsoft.Json.Net20.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\ITCase.Config.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\log4net.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\Formula.pdb
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\ITCase.Config.pdb
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\bin\Debug\log4net.xml
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\obj\Debug\ITCase.Logic.csprojResolveAssemblyReference.cache
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\obj\Debug\ITCase.Logic.dll
+D:\Project\MGCC_ITCase\Code\MGCC_ITCase\ITCase.Logic\obj\Debug\ITCase.Logic.pdb

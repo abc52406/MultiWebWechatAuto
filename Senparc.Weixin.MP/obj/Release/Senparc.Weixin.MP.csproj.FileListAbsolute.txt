@@ -1,0 +1,6 @@
+E:\Project\观昊\网页微信工具\第二版\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.MP.XML
+E:\Project\观昊\网页微信工具\第二版\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.MP.dll
+E:\Project\观昊\网页微信工具\第二版\Senparc.Weixin.MP.BuildOutPut\Senparc.Weixin.MP.pdb
+E:\Project\观昊\网页微信工具\第二版\WebWechat\Senparc.Weixin.MP\obj\Release\Senparc.Weixin.MP.csprojResolveAssemblyReference.cache
+E:\Project\观昊\网页微信工具\第二版\WebWechat\Senparc.Weixin.MP\obj\Release\Senparc.Weixin.MP.dll
+E:\Project\观昊\网页微信工具\第二版\WebWechat\Senparc.Weixin.MP\obj\Release\Senparc.Weixin.MP.pdb
